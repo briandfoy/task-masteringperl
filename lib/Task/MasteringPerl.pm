@@ -208,12 +208,6 @@ Some of them might not install everywhere.
 
 =item * List::Util
 
-=item * Local::DocBook
-
-=item * Local::Error
-
-=item * Log4perl
-
 =item * Log::Log4perl
 
 =item * Log::Log4perl::Appender::DBI
