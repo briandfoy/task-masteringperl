@@ -8,12 +8,12 @@ You can install this using in the usual Perl fashion
 The documentation is in the module file.  Once you install
 the file, you can read it with perldoc.
 
-	perldoc [% module %]
+	perldoc Task::MasteringPerl
 	
 If you want to read it before you install it, you can use
 perldoc directly on the module file.
 
-	perldoc  lib/[% module_file %]
+	perldoc  lib/
 	
 This module is also in Github:
 

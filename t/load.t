@@ -1,5 +1,5 @@
 BEGIN {
-	@classes = qw([% module %]);
+	@classes = qw(Task::MasteringPerl);
 	}
 
 use Test::More tests => scalar @classes;
