@@ -429,7 +429,7 @@ brian d foy C<< <bdfoy@gmail.com> >>
 
 =head1 COPYRIGHT AND LICENCE
 
-Copyright (c) 2014, brian d foy.
+Copyright © 2014-2015, brian d foy <bdfoy@cpan.org>. All rights reserved.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
