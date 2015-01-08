@@ -2,11 +2,14 @@ require 5.008;
 use strict;
 use warnings;
 
-my $github    = 'https://github.com/briandfoy/';
-my $main_file = 'lib/Task/MasteringPerl.pm';
+use File::Spec::Functions qw(catfile);
+
+my $module    = 'Task::MasteringPerl';
+my $github    = 'https://github.com/briandfoy/task-masteringperl';
+my $main_file = catfile( 'lib', split /::/, "$module.pm" );
 
 my %WriteMakefile = (
-	'NAME'	        => 'Task::MasteringPerl',
+	'NAME'	        => $module,
 	'ABSTRACT_FROM' => $main_file,
 	'VERSION_FROM'  => $main_file,
 	'LICENSE'       => 'perl',
