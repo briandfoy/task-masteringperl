@@ -213,7 +213,7 @@ my %WriteMakefile = (
 		'warnings' => '0',
 		},
 
-	'clean' => { FILES => q|Task-MasteringPerl-*| },
+	'clean' => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }
