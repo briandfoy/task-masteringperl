@@ -1,10 +1,12 @@
 require 5.010;
+
+package Task::MasteringPerl;
 use strict;
 use warnings;
 
 use File::Spec::Functions qw(catfile);
 
-my $module    = 'Task::MasteringPerl';
+my $module    = __PACKAGE__;
 ( my $dist = $module ) =~ s/::/-/g;
 
 my $github    = 'https://github.com/briandfoy/task-masteringperl';
