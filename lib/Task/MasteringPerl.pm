@@ -11,8 +11,6 @@ our $VERSION   = '1.002';
 
 __END__
 
-=pod
-
 =encoding utf-8
 
 =head1 NAME
