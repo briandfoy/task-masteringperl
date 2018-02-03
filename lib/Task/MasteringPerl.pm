@@ -5,7 +5,7 @@ use warnings;
 package Task::MasteringPerl;
 
 our $AUTHORITY = 'cpan:BDFOY';
-our $VERSION   = '1.002';
+our $VERSION   = '1.003';
 
 1;
 
@@ -427,7 +427,7 @@ brian d foy C<< <bdfoy@gmail.com> >>
 
 =head1 COPYRIGHT AND LICENCE
 
-Copyright © 2014-2015, brian d foy <bdfoy@cpan.org>. All rights reserved.
+Copyright © 2014-2018, brian d foy <bdfoy@cpan.org>. All rights reserved.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
