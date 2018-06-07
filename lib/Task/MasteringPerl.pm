@@ -419,11 +419,11 @@ L<http://rt.cpan.org/Dist/Display.html?Queue=Task-MasteringPerl>.
 
 =head1 SEE ALSO
 
-L<Task>.
+L<Task>
 
 =head1 AUTHOR
 
-brian d foy C<< <bdfoy@gmail.com> >>
+brian d foy, <bdfoy@gmail.com>
 
 =head1 COPYRIGHT AND LICENCE
 
