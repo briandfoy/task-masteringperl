@@ -2,6 +2,16 @@
 
 =encoding utf8
 
+=for HTML <a href="https://travis-ci.org/briandfoy/task-masteringperl"><img src="https://travis-ci.org/briandfoy/task-masteringperl.svg?branch=master" /></a>
+
+=for HTML <a href='https://ci.appveyor.com/project/briandfoy/task-masteringperl'><img src='https://ci.appveyor.com/api/projects/status/2ew3ynvu1rggvv54' /></a>
+
+=for HTML <a href='https://coveralls.io/github/briandfoy/task-masteringperl?branch=master'><img src='https://coveralls.io/repos/github/briandfoy/task-masteringperl/badge.svg?branch=master' alt='Coverage Status' /></a>
+
+=for HTML <a href="https://github.com/briandfoy/task-masteringperl/blob/master/LICENSE"><img src="https://img.shields.io/cpan/l/Task-MasteringPerl.svg" /></a>
+
+=for HTML <a href="http://www.metacpan.org/module/Task::MasteringPerl"><img src="https://img.shields.io/cpan/v/Task-MasteringPerl.svg" /></A>
+
 =head1 The Task::MasteringPerl module
 
 This is the I<README> for the L<Task::MasteringPerl> Perl module. You're probably
