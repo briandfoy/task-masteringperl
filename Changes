@@ -1,5 +1,8 @@
 Revision history for Perl module Task::MasteringPerl
 
+1.005 2018-06-07T15:12:16Z
+	* Fix up Makefile.PL to specify the META_MERGE stuff
+
 1.004 2018-06-07T14:13:22Z
 	* Change to Artistic License 2.0
 
