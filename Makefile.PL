@@ -52,6 +52,35 @@ my %WriteMakefile = (
 	'LICENSE'       => 'artistic_2',
 	'AUTHOR'        => 'brian d foy <bdfoy@cpan.org>',
 
+	'CONFIGURE_REQUIRES' => {
+		'ExtUtils::MakeMaker'   => '6.64',
+		'File::Spec::Functions' => '0',
+		},
+
+	'BUILD_REQUIRES' => {
+		},
+
+	'TEST_REQUIRES' => {
+		'Test::More' => '1',
+		},
+
+	'META_MERGE' => {
+		'meta-spec' => { version => 2 },
+		resources => {
+			repository => {
+				type => 'git',
+				url  => "$github.git",
+				web  => $github,
+				},
+			bugtracker => {
+				web    => "$github/issues",
+				},
+			homepage => $github,
+			},
+		},
+
+	'clean' => { FILES => "$dist-*" },
+
 	'PREREQ_PM' => {
 		'AnyDBM_File' => '0',
 		'Apache::PerlRun' => '0',
@@ -248,7 +277,6 @@ my %WriteMakefile = (
 		'warnings' => '0',
 		},
 
-	'clean' => { FILES => "$dist-*" },
 	);
 
 sub arguments { \%WriteMakefile }
