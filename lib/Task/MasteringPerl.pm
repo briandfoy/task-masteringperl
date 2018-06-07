@@ -5,7 +5,7 @@ use warnings;
 package Task::MasteringPerl;
 
 our $AUTHORITY = 'cpan:BDFOY';
-our $VERSION   = '1.003';
+our $VERSION   = '1.004';
 
 1;
 
