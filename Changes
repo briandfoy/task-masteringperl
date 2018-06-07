@@ -1,5 +1,8 @@
 Revision history for Perl module Task::MasteringPerl
 
+1.004 2018-06-07T14:13:22Z
+	* Change to Artistic License 2.0
+
 1.01 - 2014-02-22
 	* First release of a Task for all modules mentioned in
 	Mastering Perl, 2nd Edition
