@@ -427,7 +427,7 @@ brian d foy, <bdfoy@gmail.com>
 
 =head1 COPYRIGHT AND LICENCE
 
-Copyright © 2014-2018, brian d foy <bdfoy@cpan.org>. All rights reserved.
+Copyright © 2014-2021, brian d foy <bdfoy@cpan.org>. All rights reserved.
 
 This is free software; you can redistribute it and/or modify it under
 the terms of the Artistic License 2.0.
