@@ -56,7 +56,6 @@ jobs:
 # but that's not a big deal.
             - name: Install dependencies
               run: |
-                cpan -M https://www.cpan.org -T .
                 cpan -M https://www.cpan.org -T Test::Manifest
             - name: Run tests
               run: |
@@ -89,11 +88,3 @@ jobs:
                 perl Makefile.PL
                 make disttest
                 make clean
-# And, coverage reports
-            - name: Run coverage tests
-              env:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-              run: |
-                cpan -M https://www.cpan.org -T Devel::Cover Devel::Cover::Report::Coveralls
-                perl Makefile.PL
-                cover -test -report coveralls
