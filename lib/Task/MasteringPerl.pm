@@ -26,12 +26,6 @@ Some of them might not install everywhere.
 
 =item * AnyDBM_File
 
-=item * Apache::PerlRun
-
-=item * Apache::Perldoc
-
-=item * Apache::Pod
-
 =item * App::Smbxfer
 
 =item * AutoLoader
