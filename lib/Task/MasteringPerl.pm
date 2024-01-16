@@ -413,7 +413,7 @@ Some of them might not install everywhere.
 =head1 BUGS
 
 Please report any bugs to
-L<http://rt.cpan.org/Dist/Display.html?Queue=Task-MasteringPerl>.
+L<https://github.com/briandfoy/task-masteringperl/issues>.
 
 =head1 SEE ALSO
 
