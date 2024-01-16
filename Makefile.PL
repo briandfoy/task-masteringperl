@@ -83,9 +83,6 @@ my %WriteMakefile = (
 
 	'PREREQ_PM' => {
 		'AnyDBM_File' => '0',
-		'Apache::PerlRun' => '0',
-		'Apache::Perldoc' => '0',
-		'Apache::Pod' => '0',
 		'App::Smbxfer' => '0',
 		'AutoLoader' => '0',
 		'AutoSplit' => '0',
