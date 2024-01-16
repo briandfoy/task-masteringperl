@@ -193,7 +193,6 @@ my %WriteMakefile = (
 		'POSIX' => '0',
 		'PPI' => '0',
 		'Package::Stash' => '0',
-		'Package:Stash' => '0',
 		'Perl::Critic' => '0',
 		'Perl::Critic::DEVELOPER' => '0',
 		'Perl::Critic::Lax' => '0',
