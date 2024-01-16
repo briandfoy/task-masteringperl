@@ -423,11 +423,11 @@ L<Task>
 
 =head1 AUTHOR
 
-brian d foy, <bdfoy@gmail.com>
+brian d foy, <briandfoy@pobox.com>
 
 =head1 COPYRIGHT AND LICENCE
 
-Copyright © 2014-2021, brian d foy <bdfoy@cpan.org>. All rights reserved.
+Copyright © 2014-2021, brian d foy <briandfoy@pobox.com>. All rights reserved.
 
 This is free software; you can redistribute it and/or modify it under
 the terms of the Artistic License 2.0.
