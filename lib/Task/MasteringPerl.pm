@@ -218,8 +218,6 @@ Some of them might not install everywhere.
 
 =item * Memoize
 
-=item * ModPerl::PerlRun
-
 =item * Module::Build
 
 =item * Module::NotThere

@@ -179,7 +179,6 @@ my %WriteMakefile = (
 		'Log::Log4perl::Layout::PatternLayout' => '0',
 		'Mac::PropertyList' => '0',
 		'Memoize' => '0',
-		'ModPerl::PerlRun' => '0',
 		'Module::Build' => '0',
 		'Module::NotThere' => '0',
 		'Module::Release' => '0',
