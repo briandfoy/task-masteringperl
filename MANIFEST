@@ -1,3 +1,4 @@
+.bmt
 Changes
 INSTALL.SKIP
 lib/Task/MasteringPerl.pm
@@ -6,6 +7,7 @@ Makefile.PL
 MANIFEST			This list of files
 MANIFEST.SKIP
 README.pod
+SECURITY.md
 t/load.t
 t/pod.t
 xt/changes.t
